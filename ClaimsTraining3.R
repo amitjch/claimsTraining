@@ -100,7 +100,7 @@ write.table(x = export, file="Isit200_April.csv",sep = ";",row.names = FALSE,col
 
 ## Exercise 4 - Use factor function
 
-#Generate reference table for the month. By using the data.frame function the variable are converted into factors already.
+#Generate reference table for the month. By using the data.frame function the variables are converted into factors already.
 #Therefore no need to use the factor-function.
 
 ref1 <- data.frame(1:5, "April", "2001")
